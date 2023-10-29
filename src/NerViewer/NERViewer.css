@@ -1,0 +1,72 @@
+
+
+.container {
+    background-color: #F2F2F2;
+    color: #595959;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    background-color: #0D7330;
+    border-color: #0D7330;
+    color: #F2F2F2;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0D7330;
+    border-color: #0D7330;
+  }
+  
+  .form-control {
+    border: 2px solid #0D7330;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+    resize: none;
+  }
+  
+  .text-sentences {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .badge {
+    box-shadow: #595959 0px 0px 5px 1px;
+  }
+  
+  .r{
+    background-color: #0d733033;
+    box-shadow: #0d733033 0px 0px 5px 1px;
+  }
+
+  .response{
+    background-color: rgba(13, 115, 48,0.2);
+    box-shadow: #0d733033 0px 0px 5px 1px;
+    padding: 2%;
+    margin: 0;
+    text-align: justify;
+    color: black;
+  }
+  .question{
+    text-align: justify;
+  }
+
+  .org {
+    background-color: rgba(255, 87, 51, 0.7); 
+}
+
+.loc {
+    background-color: rgba(54, 162, 235, 0.7); 
+}
+
+.per {
+    background-color: rgba(255, 195, 0, 0.7); 
+}
+
+.date {
+    background-color: rgba(51, 255, 110, 0.7); 
+}
