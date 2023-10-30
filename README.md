@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# ReactApp CRF-XelKoomIA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ceci est une interface utilisateur permettant de visualiser les entités nommées prédites par notre modèle NER basé sur le CRF à l'aide d'un texte envoyé ou d'un fichier pdf uploader.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Table des matières
 
-### `npm start`
+- [À Propos](#à-propos)
+- [Fonctionnalités](#fonctionnalités)
+- [Installation](#installation)
+- [Utilisation](#utilisation)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## À Propos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Cette application fait appel à l'API dévelloper avec FastAPI qui nous permettrai d'offrir une interface simple pour visualiser les entités nommées en tapant un du texte ou bien uploader un fichier pdf. Cela offrirai une visualisation rapide des entités d'un text.
 
-### `npm test`
+## Fonctionnalités
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Cette Interface React offre les fonctionnalités suivantes :
 
-### `npm run build`
+- **Extraction d'Entités Nomées (NER) :** Elle permet d'extraire les entités nommées d'un texte en utilisant un modèle NER pré-entrainé.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Traitement de Fichiers PDF :** Elle prend également en charge l'envoi de fichiers PDF pour l'extraction d'entités nommées à partir de ces fichiers.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Visualisations des entités nommées :** Les réponses renvoyées par l'API sont structurées et bien formatées pour une visualisation facile et claire.
+- 
+- **Recherche des entités nommées :** Ceci permettra de faire focus sur un mot ou groupe de mot en question et de voir quel sera le L'entité nommée prédite.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Pour utiliser cette Application React sur votre propre système, suivez ces étapes :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. S'assurer d'avoir déjà en possession l'API https://github.com/abdoulahadi/api-pas-challenge
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Clônez le référentiel depuis GitHub :
+   ```bash
+    git clone https://github.com/abdoulahadi/frontend-pas-challenge.git
+    cd frontend-pas-challenge
 
-## Learn More
+3. Installez les dépendances :
+   ```bash
+    npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Lancez l'application FastAPI :
+   ```bash
+    npm start
+L'Application sera maintenant accessible localement à l'adresse http://127.0.0.1:3000.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Utilisation
+Après ces étapes, vous avez à disposition l'application pour tester à votre guise.
