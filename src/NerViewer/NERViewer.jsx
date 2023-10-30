@@ -18,6 +18,7 @@ function NERViewer() {
     setPdfFile(null);
     setSentences("");
     setEntities([])
+    setText("");
   };
 
   const handleTextChange = (event) => {
